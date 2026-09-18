@@ -1,0 +1,6 @@
+{
+  "network": "devnet",
+  "signerPublicKey": "2bfR46mfgykwhHLj9F78RbtZDi6GnD8pTdan1smgjfUi",
+  "purpose": "BidWrenx Vehicle Trust hackathon development signer",
+  "note": "Public key only. Private signing material must remain outside GitHub."
+}
