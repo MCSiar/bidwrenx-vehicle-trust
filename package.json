@@ -1,6 +1,6 @@
 {
   "name": "bidwrenx-vehicle-trust",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,7 +13,7 @@
     "@solana/kit": "^7.0.0",
     "@solana/kit-plugin-rpc": "^0.13.0",
     "@solana/kit-plugin-signer": "^0.13.0",
-    "@solana-program/memo": "latest",
+    "@solana-program/memo": "0.13.1",
     "next": "latest",
     "qrcode": "^1.5.4",
     "react": "latest",
