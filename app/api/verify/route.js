@@ -1,0 +1,2 @@
+import {NextResponse} from 'next/server'; import {get} from '../../../lib/store.mjs'; import {hashRecord} from '../../../lib/proof.mjs';
+export async function POST(req){const {id}=await req.json(); const r=get(id); if(!r||!r.proof)return NextResponse.json({status:'UNKNOWN'},{status:404}); const current=hashRecord(r); return NextResponse.json({status:current===r.proof.hash?'VERIFIED':'MODIFIED',currentHash:current,anchoredHash:r.proof.hash,signature:r.proof.signature,network:r.proof.network})}
