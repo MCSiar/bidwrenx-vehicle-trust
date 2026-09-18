@@ -1,0 +1,11 @@
+{
+  "recordId": "BW-DEMO-001",
+  "schema": "bidwrenx.vehicle-trust.v1",
+  "network": "solana-devnet",
+  "sha256": "a4078aa47f27e53923f9226d7835ee931aab9969c1ea803065fde53b66f3cf67",
+  "payload": "BIDWRENX:v1:BW-DEMO-001:a4078aa47f27e53923f9226d7835ee931aab9969c1ea803065fde53b66f3cf67",
+  "transactionSignature": "43FmYG3sDSrgzeWqXzA9GGbaea3Tx4mtMka9hPgZ6vjD3smbqjqP2CE2DuVS61oB4H5ytbVY43TGkWdiuXYKwJQ1",
+  "explorerUrl": "https://explorer.solana.com/tx/43FmYG3sDSrgzeWqXzA9GGbaea3Tx4mtMka9hPgZ6vjD3smbqjqP2CE2DuVS61oB4H5ytbVY43TGkWdiuXYKwJQ1?cluster=devnet",
+  "explorerStatusObserved": "Success",
+  "note": "This proves anchoring of the cryptographic fingerprint on Solana Devnet, not the real-world truth of the underlying service event."
+}
